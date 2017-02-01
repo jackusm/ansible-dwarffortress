@@ -1,6 +1,6 @@
 ---
 - name: Fetch Tile Set Phoebus
-  get_url: url=http://dffd.bay12games.com/download.php?id=2430&f=Phoebus_40_24v00.zip
+  get_url: url=https://github.com/DFgraphics/Phoebus/archive/master.zip
            dest=/phoebus.zip
   tags: install
 
