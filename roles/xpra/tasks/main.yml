@@ -35,10 +35,10 @@
   shell: echo 'df:changeme' |chpasswd
   tags: install
 
-- name: Set PRINT_MODE to 2D in df configuration
+- name: Set COMPRESSED_SAVES to NO in df configuration
   lineinfile: dest=/df_linux/data/init/init.txt
-              regexp='^\[PRINT_MODE\:(.*)$'
-              line=[PRINT_MODE:2D]
+              regexp='^\[COMPRESSED_SAVES\:(.*)$'
+              line=[COMPRESSED_SAVES:NO]
               state=present
               backrefs=yes
   tags: configure
