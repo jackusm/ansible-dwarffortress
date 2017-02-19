@@ -1,6 +1,6 @@
 ---
 - name: Fetch Tile Set GemSet
-  get_url: url=https://github.com/DFgraphics/GemSet/archive/master.zip
+  get_url: url=https://github.com/DFgraphics/GemSet/archive/43.05a.zip
            dest=/GemSet.zip
   tags: install
 
